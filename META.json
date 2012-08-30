@@ -4,7 +4,7 @@
       "Anthony Kilna <anthony@kilna.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630",
    "license" : [
       "perl_5"
    ],
@@ -22,7 +22,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.39"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
@@ -39,7 +39,7 @@
    "provides" : {
       "Backticks" : {
          "file" : "lib/Backticks.pm",
-         "version" : "v1.0.7"
+         "version" : "v1.0.8"
       }
    },
    "release_status" : "stable",
@@ -48,5 +48,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v1.0.7"
+   "version" : "v1.0.8"
 }
