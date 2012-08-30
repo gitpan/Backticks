@@ -16,21 +16,18 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0",
-            "Time::HiRes" : "0"
+            "Test::More" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.4"
          }
       },
       "runtime" : {
          "requires" : {
-            "Carp" : "0",
             "Class::ISA" : "0",
             "Filter::Simple" : "0",
-            "IPC::Open3" : "0",
             "Scalar::Util" : "0",
             "perl" : "5.006"
          }
@@ -39,7 +36,7 @@
    "provides" : {
       "Backticks" : {
          "file" : "lib/Backticks.pm",
-         "version" : "v1.0.8"
+         "version" : "v1.0.9"
       }
    },
    "release_status" : "stable",
@@ -48,5 +45,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v1.0.8"
+   "version" : "v1.0.9"
 }
